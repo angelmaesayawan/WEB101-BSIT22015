@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Webpage Profile</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-…"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      /* background image dito */
+      background: url('https://images.pexels.com/photos/16412589/pexels-photo-16412589.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-card {
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      overflow: hidden;
+      margin: 20px;
+      padding-bottom: 20px;
+    }
+
+    .card-header {
+      background-color: #4A90E2;
+      padding: 60px 20px 20px;
+      position: relative;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      position: absolute;
+      top: 10px;
+      left: calc(50% - 60px);
+      z-index: 1;
+    }
+
+    .name, .title, .role {
+      position: relative;
+      z-index: 2;
+      margin: 0;
+      color: #f7f1f1;
+    }
+
+    .name {
+      margin-top: 80px;
+      font-size: 24px;
+    }
+
+    .title {
+      color: #a39a9a;
+      font-size: 16px;
+    }
+
+    .role {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #eaeaea;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .bio {
+      color: #05151a;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-link {
+      margin: 0 5px;
+      text-decoration: none;
+      color: #72c2e7;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    .social-link:hover {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="card-header">
+      <img
+        src="https://scontent.fcrk3-4.fna.fbcdn.net/v/t39.30808-6/482304320_1861423641338449_1381245233456853322_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFhqtKMTtcNcjMnpuMX1dZc3eu-e5MeviXd6757kx6-JRrr9msBCOx1kt-fvqbQjxabUIrW89W_56J_2YBThZTb&_nc_ohc=QQk1EPpDsDsQ7kNvwGsNysV&_nc_oc=AdkAwcGbTtjfYX2nlKOz17wGA8tK7llCSUHkM-OpC0tv5DgUjHELsJpBYf_jYFg9Z3A&_nc_zt=23&_nc_ht=scontent.fcrk3-4.fna&_nc_gid=8WvBDGrD8bnCssdsGgnd1A&oh=00_AfmuCgSDWbviV79kxy1hjdsLe6IA0S_Vo8JyzmPgt3BGPg&oe=693B6699"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <h1 class="name">Sayawan, Angelmae G.</h1>
+      <p class="title"><b>BSIT-22015</b></p>
+      <p class="role">Who loves cat!</p>
+    </div>
+    <div class="card-body">
+      <p class="bio">We are not what we know but what we are willing to learn.</p>
+      <div class="social-links">
+  <a href="https://www.facebook.com/jennylyn.gepiga.5" target="_blank" class="social-link">
+    <i class="fab fa-facebook"></i>
+  </a>
+  <a href="https://github.com/angelmaesayawan/WEB101-BSIT22015" target="_blank" class="social-link">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+
+    </div>
+  </div>
+</body>
+</html>
